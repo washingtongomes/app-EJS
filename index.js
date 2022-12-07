@@ -21,3 +21,5 @@ app.get('/artigos/:articleId', (req, res) => {
     const title = (article) ? article.title : 'Arquivo não encontrado';
     res.render('pages/artigos', { title, article })
 });
+
+
